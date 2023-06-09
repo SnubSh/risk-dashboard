@@ -1,0 +1,22 @@
+name: risk_dashboard
+description: Project Risk Dashboard.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^7.1.1
+  intl: ^0.18.1
+  syncfusion_flutter_charts: ^21.2.9
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
